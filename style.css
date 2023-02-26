@@ -1,0 +1,54 @@
+.main-elements-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aquamarine; */
+}
+
+#content-page {
+  display: flex;
+  flex-direction: column;
+  
+  /* background-color: darkgrey; */
+}
+
+.item {
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+
+.header {
+  /* background-color: antiquewhite; */
+  margin-bottom: 10px;
+}
+
+.task-text {
+  /* padding-left: 5px; */
+  color: black;
+}
+
+.done-text {
+  color: rgba(0,0,0,0.3);
+  text-decoration: line-through;
+}
+
+.wrapper-content-page {
+  min-width: 25vw;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+#add-task {
+  min-width: 20vw;
+}
+
+#btn {
+  width: 5vw;
+  min-width: 40px;
+}
