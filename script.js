@@ -124,7 +124,11 @@ const render = (editIndex) => {
       }
     } 
     content.appendChild(conteiner);
-    edit.focus();
+    if (isEdit) {
+      edit.focus();
+    } else {
+      input.focus();
+    }
   });
 }
 
